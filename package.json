@@ -1,5 +1,5 @@
 {
-  "name": "desafio-4",
+  "name": "backend-desafios",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,19 @@
     "start": "node index.js",
     "start-dev": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itati3911/backend-desafios.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
-  }
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "bugs": {
+    "url": "https://github.com/itati3911/backend-desafios/issues"
+  },
+  "homepage": "https://github.com/itati3911/backend-desafios#readme"
 }
