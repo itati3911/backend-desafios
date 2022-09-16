@@ -1,23 +1,31 @@
 const products = [
     {
         "id": 1,
-        "name": "Jagermeister",
-        "price": 100
+        "nombre": "Jagermeister",
+        "descripcion": "spirituous",
+        "precio": 100,
+        "imagen": "https://d1osgs5rdqb11o.cloudfront.net/products/main/751/751.thm250.jpg"
     },
     {
         "id": 2,
-        "name": "Bombay Sapphire",
-        "price": 200
+        "nombre": "Bombay Sapphire",
+        "descripcion": "gin",
+        "precio": 200,
+        "imagen":"https://d1osgs5rdqb11o.cloudfront.net/products/main/244/244.thm350.jpg"
     },
     {
         "id": 3,
-        "name": "Absolut",
-        "price": 300
+        "nombre": "Absolut",
+        "descripcion": "vodka",
+        "precio": 300,
+        "imagen":"https://d1osgs5rdqb11o.cloudfront.net/products/main/623/623.thm350.jpg"
     },
     {
         "id": 4,
-        "name": "Monkey 47",
-        "price": 400
+        "nombre": "Monkey 47",
+        "descripcion": "gin",
+        "precio": 400,
+        "imagen":"https://d1osgs5rdqb11o.cloudfront.net/products/main/7714/7714.thm350.jpg"
     }
 ];
   
