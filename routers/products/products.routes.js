@@ -16,8 +16,10 @@ router.get("/:id", (req, res) => {
   }
   return res.json({ success: true, result: product });
 });
+
+
 router.post("/", (req, res) => {
-  const { title, price, thumbnail } = req.body;
+  const products = req.body;
   if (!title || !price || !thumbnail) {
     return res
       .status(400)
@@ -27,7 +29,7 @@ router.post("/", (req, res) => {
     id: products.length + 1,
     title,
     price: +price,
-    image,
+    thumbnail,
   };
   products.push(newProduct);
   return res.json(newProduct);
